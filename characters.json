@@ -1,0 +1,14 @@
+{
+  "Arvind Kejriwal": {
+    "folder":   "kejriwal",
+    "photo":    "normal.png",
+    "position": "left",
+    "size_pct": 35
+  },
+  "Raghav Chadha": {
+    "folder":   "raghav",
+    "photo":    "normal.png",
+    "position": "right",
+    "size_pct": 35
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "script": {
+        "1": [
+            "Arvind Kejriwal",
+            "राघव...\nये देखो!\nये क्या बकवास है?\nसौ रुपए ट्रांसफर किए...\nपैसे कट गए...\nपर सामने वाले को मिले नहीं!\nये बैंक वाले...\nहमारा पैसा खा रहे हैं क्या?",
+            [
+                "Raghav... ye dekho! Ye kya bakwaas hai? Sau rupaye transfer kiye... paise kat gaye... par saamne waale ko mile nahi! Ye bank waale... humara paisa khaa rahe hain kya?"
+            ]
+        ],
+        "2": [
+            "Raghav Chadha",
+            "अरे सर...\nपैनिक मत कीजिए।\nपैसा कहीं नहीं गया...\nबस बैंक का सर्वर डाउन है।\nइसे ऐसे समझिए...\nजैसे गोलगप्पे की दुकान पर...\nएक साथ पचास लोग आ जाएं...\nतो भैया कंफ्यूज हो जाते हैं ना?",
+            [
+                "Arey sir... panic mat kijiye. Paisa kahin nahi gaya... bas bank ka server down hai. Ise aise samajhiye... jaise golgappe ki dukaan par... ek saath pachaas log aa jaayein... toh bhaiya confuse ho jaate hain na?"
+            ]
+        ],
+        "3": [
+            "Arvind Kejriwal",
+            "तो गोलगप्पे वाले भैया...\nपैसे लेकर भाग जाएंगे क्या?\nमुझे मेरा...\nसौ रुपया वापस चाहिए राघव!\nये सब मिले हुए हैं जी!",
+            [
+                "Toh golgappe waale bhaiya... paise lekar bhaag jaayenge kya? Mujhe mera... sau rupaya waapas chahiye Raghav! Ye sab mile hue hain ji!"
+            ]
+        ],
+        "4": [
+            "Raghav Chadha",
+            "अरे नहीं सर!\nथोड़ी देर में...\nसर्वर ठीक होते ही...\nया तो पैसे ट्रांसफर हो जाएंगे...\nया आपके अकाउंट में...\nवापस आ जाएंगे...\nचिल करिए!",
+            [
+                "Arey nahi sir! Thodi der mein... server theek hote hi... ya toh paise transfer ho jaayenge... ya aapke account mein... waapas aa jaayenge... chill kariye!"
+            ]
+        ]
+    }
+}

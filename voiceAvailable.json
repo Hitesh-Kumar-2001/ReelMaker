@@ -1,0 +1,127 @@
+{
+  "note": "Run client.refresh_voice_list() to pull the latest list live from MiniMax API.",
+  "voice_cloning": [
+    {
+      "voice_id": "kejriwal_clone",
+      "char_name": "kejriwal",
+      "source_file": "D:\\CharcterAi\\ReelMaker\\Characters\\kejriwal\\kj2.mp3",
+      "language": "Hindi"
+    },
+    {
+      "voice_id": "raghav_clone",
+      "char_name": "raghav",
+      "source_file": "D:\\CharcterAi\\ReelMaker\\Characters\\raghav\\raghav.mp3",
+      "language": "Hindi"
+    }
+  ],
+  "system": [
+    {
+      "voice_id": "English_Graceful_Lady",
+      "voice_name": "Graceful Lady",
+      "language": "English",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "English_Insightful_Speaker",
+      "voice_name": "Insightful Speaker",
+      "language": "English",
+      "gender": "Male"
+    },
+    {
+      "voice_id": "English_radiant_girl",
+      "voice_name": "Radiant Girl",
+      "language": "English",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "English_Persuasive_Man",
+      "voice_name": "Persuasive Man",
+      "language": "English",
+      "gender": "Male"
+    },
+    {
+      "voice_id": "English_Lucky_Robot",
+      "voice_name": "Lucky Robot",
+      "language": "English",
+      "gender": "Neutral"
+    },
+    {
+      "voice_id": "moss_audio_6dc281eb-713c-11f0-a447-9613c873494c",
+      "voice_name": "English Voice 1",
+      "language": "English",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "moss_audio_570551b1-735c-11f0-b236-0adeeecad052",
+      "voice_name": "English Voice 2",
+      "language": "English",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "moss_audio_ad5baf92-735f-11f0-8263-fe5a2fe98ec8",
+      "voice_name": "English Voice 3",
+      "language": "English",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "Chinese (Mandarin)_Lyrical_Voice",
+      "voice_name": "Lyrical Voice",
+      "language": "Chinese (Mandarin)",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "Chinese (Mandarin)_HK_Flight_Attendant",
+      "voice_name": "HK Flight Attendant",
+      "language": "Chinese (Mandarin)",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "moss_audio_ce44fc67-7ce3-11f0-8de5-96e35d26fb85",
+      "voice_name": "Chinese Voice 1",
+      "language": "Chinese (Mandarin)",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "moss_audio_aaa1346a-7ce7-11f0-8e61-2e6e3c7ee85d",
+      "voice_name": "Chinese Voice 2",
+      "language": "Chinese (Mandarin)",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "Cantonese_GentleLady",
+      "voice_name": "Gentle Lady",
+      "language": "Cantonese",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "Cantonese_podacast_host_1",
+      "voice_name": "Podcast Host",
+      "language": "Cantonese",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "Japanese_Whisper_Belle",
+      "voice_name": "Whisper Belle",
+      "language": "Japanese",
+      "gender": "Female"
+    },
+    {
+      "voice_id": "moss_audio_24875c4a-7be4-11f0-9359-4e72c55db738",
+      "voice_name": "Japanese Voice 1",
+      "language": "Japanese",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "moss_audio_7f4ee608-78ea-11f0-bb73-1e2a4cfcd245",
+      "voice_name": "Japanese Voice 2",
+      "language": "Japanese",
+      "gender": "Unknown"
+    },
+    {
+      "voice_id": "moss_audio_c1a6a3ac-7be6-11f0-8e8e-36b92fbb4f95",
+      "voice_name": "Japanese Voice 3",
+      "language": "Japanese",
+      "gender": "Unknown"
+    }
+  ]
+}
