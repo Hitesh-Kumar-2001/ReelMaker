@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 from scripts.main.MiniMaxClient import MiniMaxClient
+from scripts.GoogleDrive import GoogleDriveService
 
 load_dotenv(override=True)
 
@@ -295,17 +296,63 @@ def generate_reel(post_number: int = 1, output_path: str = None):
 
 
 # ------------------------------------------------------------------
+# Step 3 — run full pipeline from tempScript.json
+# ------------------------------------------------------------------
+
+TEMP_SCRIPT      = os.path.join(BASE_DIR, "scripts", "tempScript.json")
+POSTS_DIR        = os.path.join(BASE_DIR, "posts")
+GDRIVE_FOLDER_ID = "1O9keZ0tARDgIeTpoRsOm49Eu8EhsBwr8"
+
+
+def _next_post_number() -> int:
+    os.makedirs(POSTS_DIR, exist_ok=True)
+    existing = [
+        int(d) for d in os.listdir(POSTS_DIR)
+        if os.path.isdir(os.path.join(POSTS_DIR, d)) and d.isdigit()
+    ]
+    return max(existing, default=0) + 1
+
+
+def run_from_temp():
+    import json
+
+    if not os.path.isfile(TEMP_SCRIPT):
+        raise FileNotFoundError(f"tempScript.json not found at {TEMP_SCRIPT}")
+
+    with open(TEMP_SCRIPT, "r", encoding="utf-8") as f:
+        script_data = json.load(f)
+
+    post_number = _next_post_number()
+    post_dir    = os.path.join(POSTS_DIR, str(post_number))
+    os.makedirs(os.path.join(post_dir, "audioFiles"), exist_ok=True)
+
+    dest = os.path.join(post_dir, "script.json")
+    with open(dest, "w", encoding="utf-8") as f:
+        json.dump(script_data, f, ensure_ascii=False, indent=4)
+
+    print(f"[reelMaker] Post {post_number} created -> {post_dir}")
+    generate_audio_for_post(post_number)
+    reel_path = generate_reel(post_number)
+    print(f"[reelMaker] Done -> posts/{post_number}/reel.mp4")
+
+    audio_dir = os.path.join(post_dir, "audioFiles")
+    for f in os.listdir(audio_dir):
+        os.remove(os.path.join(audio_dir, f))
+    os.rmdir(audio_dir)
+    print(f"[reelMaker] Audio files deleted")
+
+    if GDRIVE_FOLDER_ID:
+        print(f"[reelMaker] Uploading to Google Drive...")
+        drive = GoogleDriveService(None)
+        file_id = drive.upload_file(reel_path, GDRIVE_FOLDER_ID)
+        print(f"[reelMaker] Uploaded -> Drive file ID: {file_id}")
+    else:
+        print("[reelMaker] GDRIVE_FOLDER_ID not set in .env — skipping upload")
+
+
+# ------------------------------------------------------------------
 # Entry point
 # ------------------------------------------------------------------
 
 if __name__ == "__main__":
-    post_number = 4
-    action      = "all"
-
-    if action == "audio":
-        generate_audio_for_post(post_number)
-    elif action == "reel":
-        generate_reel(post_number)
-    elif action == "all":
-        generate_audio_for_post(post_number)
-        generate_reel(post_number)
+    run_from_temp()

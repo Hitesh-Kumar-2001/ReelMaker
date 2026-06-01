@@ -1,9 +1,10 @@
-from dotenv import load_dotenv
-from scripts.main.makeLLM import LLMClient
+from scripts.GoogleDrive import GoogleDriveService
+from reelMaker import POSTS_DIR, GDRIVE_FOLDER_ID
+import os
 
-load_dotenv(override=True)
+post_number  = 6
+local_folder = "D:/CharcterAi/ReelMaker/posts/6"
 
-llm = LLMClient()
-
-script = llm.get_script("AI aur ChatGPT ka fark kya hai")
-print(script)
+drive    = GoogleDriveService(None)
+drive_id = drive.upload_folder(local_folder, "1O9keZ0tARDgIeTpoRsOm49Eu8EhsBwr8")
+print(f"Uploaded -> Drive folder ID: {drive_id}")

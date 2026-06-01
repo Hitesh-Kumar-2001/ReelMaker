@@ -1,0 +1,53 @@
+{
+    "script": {
+        "1": [
+            "Arvind Kejriwal",
+            "राघव...\nकल मैं अपने भांजे से बात कर रहा था।\nकह रहा था कि वो...\n'क्लाउड' पर अपनी वेबसाइट चलाता है!\nअरे राघव...\nबादलों पर कंप्यूटर किसने रख दिया जी?\nबारिश आएगी...\nतो उसका सारा डेटा भीग नहीं जाएगा क्या?",
+            [
+                "Raghav... kal main apne bhaanje se baat kar raha tha. Keh raha tha ki woh... 'cloud' par apni website chalaata hai! Arey Raghav... baadlon par computer kisne rakh diya ji? Baarish aayegi... toh uska saara data bheeg nahi jaayega kya?"
+            ]
+        ],
+        "2": [
+            "Raghav Chadha",
+            "अरे नहीं सर!\nबादल में कोई कंप्यूटर नहीं है।\nये असल में...\nAmazon Web Services यानी AWS है।\nइसे एकदम फिल्मी स्टाइल में समझिए...\nजैसे बाहुबली फिल्म का माहिष्मती किंगडम!\nवहां हथियार बनाने से लेकर...\nसेना रखने तक का सारा इन्फ्रास्ट्रक्चर...\nराजा का होता था ना?",
+            [
+                "Arey nahi sir! Baadal mein koi computer nahi hai. Ye asal mein... Amazon Web Services yaani AWS hai. Ise ekdum filmy style mein samajhiye... jaise Baahubali film ka Mahishmati kingdom! Wahan hathiyar banaane se lekar... sena rakhne tak ka saara infrastructure... raja ka hota tha na?"
+            ]
+        ],
+        "3": [
+            "Arvind Kejriwal",
+            "हाँ...\nकटप्पा भी तो राजा का ही गुलाम था राघव!\nपर इसका...\nहमारे भांजे के कंप्यूटर से क्या लेना-देना?\nतुम बात घुमा रहे हो जी!",
+            [
+                "Haan... Katappa bhi toh raja ka hi gulaam tha Raghav! Par iska... humare bhaanje ke computer se kya lena-dena? Tum baat ghuma rahe ho ji!"
+            ]
+        ],
+        "4": [
+            "Raghav Chadha",
+            "सर...\nपहले के ज़माने में अगर किसी को वेबसाइट चलानी होती थी...\nतो उसे खुद का महँगा सर्वर खरीदना पड़ता था।\nयानी अपना खुद का किला बनाना पड़ता था।\nलेकिन AWS क्या करता है?\nवो कहता है कि भैया...\nहमने माहिष्मती जैसा बहुत बड़ा किला...\nयानी डेटा सेंटर पहले से बना रखा है।\nआपको जितनी जगह चाहिए...\nकिराए पर ले लो और अपना काम चलाओ!",
+            [
+                "Sir... pehle ke zamaane mein agar kisi ko website chalani hoti thi... toh use khud ka mahanga server khareedna padta tha. Yaani apna khud ka kila banana padta tha. Lekin AWS kya karta hai? Woh kehta hai ki bhaiya... humne Mahishmati jaisa bahut bada kila... yaani data center pehle se bana rakha hai. Aapko jitni jagah chahiye... kiraye par le lo aur apna kaam chalao!"
+            ]
+        ],
+        "5": [
+            "Arvind Kejriwal",
+            "अच्छा!\nयानी किराए का मकान?\nपर राघव...\nअगर अचानक से उस वेबसाइट पर...\nबहुत सारे लोग आ जाएं...\nतो वो किराए का कमरा छोटा नहीं पड़ जाएगा?",
+            [
+                "Achha! Yaani kiraye ka makaan? Par Raghav... agar achanak se us website par... bahut saare log aa jaayein... toh woh kiraye ka kamra chota nahi pad jaayega?"
+            ]
+        ],
+        "6": [
+            "Raghav Chadha",
+            "यही तो असली जादू है सर!\nजैसे ही फिल्म सुपर-हिट होती है...\nऔर थिएटर के बाहर भीड़ बढ़ती है...\nतो थिएटर वाले शो बढ़ा देते हैं ना?\nवैसे ही AWS में 'ऑटो स्केलिंग' होती है।\nयूज़र्स बढ़े...\nतो कंप्यूटर की पावर अपने आप बढ़ जाएगी।\nयूज़र्स घटे...\nतो पावर कम हो जाएगी।\nऔर पैसा सिर्फ उतना ही देना है...\nजितना आपने इस्तेमाल किया!\nयानी 'पे एज़ यू गो'!",
+            [
+                "Yahi toh asli jaadu hai sir! Jaise hi film super-hit hoti hai... aur theater ke baahar bheed badhti hai... toh theater waale show badha dete hain na? Waise hi AWS mein 'Auto Scaling' hoti hai. Users badhe... toh computer ki power apne aap badh jayegi. Users ghate... toh power kam ho jayegi. Aur paisa sirf utna hi dena hai... jitna aapne istemaal kiya! Yaani 'Pay as you go'!"
+            ]
+        ],
+        "7": [
+            "Arvind Kejriwal",
+            "वाह राघव!\nये तो बहुत ही किफायती स्कीम है जी।\nयानी बिना थिएटर खरीदे...\nपूरी फिल्म का मज़ा!\nचलो... आज ही अपने भांजे को बोलते हैं...\nकि बादलों की चिंता छोड़ दे!",
+            [
+                "Wah Raghav! Ye toh bahut hi kifayati scheme hai ji. Yaani bina theater khareede... poori film ka maza! Chalo... aaj hi apne bhaanje ko bolte hain... ki baadlon ki chinta chhod de!"
+            ]
+        ]
+    }
+}

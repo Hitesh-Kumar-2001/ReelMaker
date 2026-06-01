@@ -53,6 +53,13 @@ temptxt/
 .claude/
 contacts.pickle.txt
 
+# Secrets / credentials — never commit these
+scripts/token.pickle
+scripts/auth.json
+*.pickle
+credentials.json
+token.json
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
